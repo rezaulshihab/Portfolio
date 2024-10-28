@@ -1,0 +1,445 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+img{
+  height: auto;
+  max-width:100% ;
+}
+/*HEADER*/
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #c2d7f6;
+  padding: 15px 0;
+}
+.header .img{
+  max-width: 110px;
+}
+.header li{
+  display: inline-block;
+  margin: 0 20px;
+  text-align: right;
+}
+.header li a{
+  color: #34495e;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.header li a:hover{
+  color: tomato;
+}
+.header input{
+  border: 1px solid #34495e5d;
+  border-radius: 15px;
+  background: transparent;
+  padding: 7px 15px;
+  flex-basis: 25%;
+}
+.header input::placeholder{
+  color: #34495e;
+}
+.header .icon{
+  color: #34495e;
+
+  text-align: right;
+}
+/*HOME*/
+#Home{
+  padding: 50px 0;
+  background: #192a56;
+}
+.homecon{
+  width: 90%;
+  max-width: 1200px;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.home-img{
+  flex-basis: 40%;
+  margin-left: 30px;
+}
+.writing{
+  flex-basis: 50%;
+}
+.writing h6{
+  color: gold;
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  border-bottom: 1px dotted #f6f6f6;
+  width: 240px;
+  padding-bottom: 5px;
+}
+.writing h1{
+  color: tomato;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+.writing span{
+  background: tomato;
+  padding: 0 10px;
+  border-radius: 5px;
+  color: black;
+}
+.writing h3{
+  margin-bottom: 10px;
+  color: rgb(0, 255, 157);
+}
+.writing p{
+  color: #d6d4d4;
+  font-size: 17px;
+  margin-bottom: 15px;
+  line-height: 1.3rem;
+  letter-spacing: 1px;
+}
+button{
+  color: black;
+  background: rgb(157, 255, 0);
+  padding: 15px 40px;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: .9rem;
+  font-weight: bold;
+}
+
+button:hover{
+  box-shadow: 1px 1px 10px #126eca;
+}
+hr{
+  margin-top: 25px;
+  border: 1px solid;
+}
+/*ABOUR*/
+#About{
+  background-color: tomato;
+  padding: 20px 0;
+}
+.about{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+.about-writing h2{
+  color: white;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+.about-writing p{
+  margin-bottom: 15px;
+  color: black;
+  margin-right: 20%;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+.about-writing button{
+  background: black;
+  color: white;
+  border-radius: 0;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+#Sign-btn{
+  border: 1px solid white;
+  background: transparent;
+  margin-left: 10px;
+  transition: 1s;
+}
+#Sign-btn:hover{
+  background: black;
+  box-shadow: 0 0 0;
+  border: 1px solid black;
+}
+.about-img img{
+  max-width: 70% ;
+  margin-left: 80px;
+}
+  /*SIGN UP*/
+  .block{
+    display: none;
+  }
+  .Sing-Up{
+    padding: 50px 0;
+    background: #e0e0e0;
+  }
+  .Sing-Up h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .Sing-Up input{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 600px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #bdbcbc;
+    font-size: 1rem;
+  }
+  /*SERVICES*/
+  #Services{
+    background: black;
+    padding: 50px 0 0px;
+  }
+  #Services .h2{
+    color: #f6f6f6;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .Services{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+  }
+  .Card{
+    color: #192a56;
+    background: tomato;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: -30px;
+    margin: 0 10px;
+  }
+  .Card2{
+    background: white;
+  }
+  .Card img{
+    width: 80px;
+    margin-bottom: 15px;
+  }
+  .Card h2{
+    margin-bottom: 15px;
+  }
+  .Card li{
+    margin-bottom: 5px;
+    color: black;
+  }
+  /*CONTACT*/
+  #Contact{
+    background-color: #111122;
+    padding: 30px 0;
+    height: 100vh;
+  }
+  .contacts{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  } 
+  #Contact .Con{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+    color: #f6f6f6;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  #Contact .Let{
+    text-align: center;
+    color: #F3B90B;
+    font-size: 20px;
+  }
+  .adds img{
+    border-radius: 10px;
+  }
+  .adds h2{
+    font-size: 32px;
+    margin: 7px 0;
+    color: white;
+  }
+  .adds h3{
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+  }
+  .adds p{
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+  }
+  .Contact{
+    width: 100%;
+    max-width: 600px;
+  }
+  .Contact input, textarea{
+    width: 100%;
+    display: block;
+    padding: 15px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #bdbcbc;
+    font-size: 18px;
+    font-weight: 500;
+    background: #636e72;
+  }
+  .Contact input::placeholder{
+    color: #a4b0be;
+  }
+  .Contact textarea::placeholder{
+    color: #a4b0be;
+    font-size: 20px;
+  }
+  .Contact input{
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: 12px 12px;
+  }
+   .Contact input.name{
+    background-image: url(img/user.png);
+  }
+  .Contact input.email{
+    background-image: url(img/envelope.png);
+  }
+  .Contact input.number{
+    background-image: url(img/phone-call.png);
+  }
+  .Contact textarea.text{
+    background-image: url(img/email.png);
+    background-size: 23px;
+    background-repeat: no-repeat;
+    background-position: 12px 16px;
+  }
+  .Contact textarea{
+    height: 110px;
+    font-size: 1.1rem;
+  }
+  input[type="button"]{
+    background: #192a56;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    transition: 1s;
+    box-shadow:  1px 2px 5px #dddddd5e;
+  }
+  input[type="button"]:hover{
+    background: black;
+  }
+@media screen and (max-width:1200px) and (min-width:768px){
+  #Home{
+    padding: 75px 10px;
+    background: #192a56;
+  }
+  .homecon{
+    height: auto;
+  }
+  .about{
+    height: auto;
+    padding:75px 0;
+  }
+  .Services{
+    padding: 75px 0;
+    height: auto;
+  }
+  #Services .h2{
+    font-size: 1.8rem;
+    padding: 0 10px;
+  }
+  #Contact{
+    height: auto;
+  }
+  .Contact{
+    max-width: 400px;
+  }
+  .contacts .adds{
+    width: 40%;
+  }
+  }
+@media screen and (max-width:767px) and (min-width:250px){
+  /*HEADER*/
+  .header input{
+    display: none;
+  }
+  .header li{
+    display: none;
+  }
+  .header .img{
+    max-width: 105px;
+  }
+  /*HOME*/
+  #Home{
+    padding: 50px 20px;
+    background: #192a56;
+  }
+  .homecon{
+    flex-direction: column;
+    height: auto;
+  }
+  .writing{
+    margin-top: 20px;
+  }
+  .home-img{
+    margin-left: 0px;
+  }.writing h1{
+    font-size: 1.3rem;
+  }
+  /*ABOUT*/
+  .about{
+    flex-direction: column;
+    width: 90%;
+  }
+  .about-writing{
+    text-align: center;
+  }
+  .about-writing p{
+    margin-right: 0;
+  }
+  .about-writing h2{
+    font-size: 1.7rem;
+  }
+  #About{
+  padding: 30px 0;
+  }
+  .about{
+    height: auto;
+  }
+  .about-img img{
+  text-align: center;
+  margin-top: 20px;
+  }
+  /*SERVICES*/
+  .Services{
+    flex-direction: column;
+    height: auto;
+    padding: 25px 0;
+  }
+  #Services .h2{
+    font-size: 1.5rem;
+    padding: 0 7px;
+  }
+  .Card{
+    margin: 15px;
+  }
+  #Contact{
+    height: auto;
+  }
+  .contacts{
+    flex-direction: column;
+  } 
+  .Contact{
+    margin-top: 40px;
+  }
+  #Contact .Con{
+    font-size: 45px;
+  }
+}
