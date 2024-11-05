@@ -335,6 +335,35 @@ hr{
   input[type="button"]:hover{
     background: black;
   }
+footer{
+  background: #1C222A;
+  padding: 25px;
+}
+.foot{
+  max-width: 1260px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo i{
+  font-size: 15px;
+  background: white ;
+  color: black;
+  padding: 14px;
+  border-radius: 50%;
+  margin-right: 15px;
+  box-shadow: 0 0 10px #f8b90cb9;
+  transition: 0.5s;
+}
+.logo i:hover{
+  background: #F8B90C;
+  color: white;
+}
+.copyright{
+  color: #F8B90C;
+  font-size: 17px;
+}
 @media screen and (max-width:1200px) and (min-width:768px){
   #Home{
     padding: 75px 10px;
@@ -441,5 +470,13 @@ hr{
   }
   #Contact .Con{
     font-size: 45px;
+  }
+    .foot{
+  flex-direction: column;
+  }
+  .copyright{
+    margin-top: 20px;
+    color: #F8B90C;
+    font-size: 15px;
   }
 }
